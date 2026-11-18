@@ -73,6 +73,16 @@ Two habits separate the entries that place from the ones that do not:
 - **Respect the transcript gate.** Your sessions are matched against your code: write the code in the session, revise it at least once, and never paste in a finished solution from elsewhere — copied lines are detected and counted against you.
 - **Replace a standing entry only with a clearly better one.** You can usually resubmit while entries are open; the newest submission is the one that counts, so do not gamble a good entry on an untested rewrite minutes before the deadline.
 
+### Choosing your first bounty
+
+Not every open bounty is a good first bounty. Three questions sort them quickly:
+
+- **How many places are paid?** A bounty paying 50 places forgives a beginner's mistakes; a winner-takes-all bounty does not. Start where the paid band is wide.
+- **Is there an entry fee?** Free bounties cost you only time, which is the right price while you are learning the platform's checks and habits.
+- **How long is the runway?** A deadline a few days away lets you build, fail a check, fix it and resubmit. A deadline tonight does not. Most bounties also cap how many submissions you may make per day, so an early first submission buys you room to improve.
+
+Read one finished bounty's leaderboard before you enter its successor: seeing what actually placed is the fastest calibration there is.
+
 ## 5. A tour of bounty types
 
 You will meet several families of bounties; the skills transfer between them:
@@ -95,6 +105,7 @@ https://make.fun/r/<your code>
 
 - **First touch wins.** The code a visitor's browser saw first is bound to them for 60 days; a later link does not replace it.
 - **Signups are verified.** The same checks that pay referral rewards decide what counts: your own account, accounts that share your network, idle or bot signups never count. There is no shortcut here — only real people who actually join.
+- **Verification is not instant.** Each signup sits under a 24-hour review hold from the moment it binds to your code, and is only decided after that hold closes. A count that has not moved yet is usually just a count that has not been decided yet.
 - **Referral rewards are separate from bounty prizes.** The program pays a small reward per verified signup, and referral-style bounties (like this one) turn the same verified count into a competition score.
 
 The honest way to do well: put your link somewhere genuinely useful — a guide, a tutorial, a post that teaches something — and share it where people who would enjoy make.fun actually are. That is exactly what this repository is.
@@ -119,6 +130,7 @@ The honest way to do well: put your link somewhere genuinely useful — a guide,
 - **"The check says my lines were copied."** Code has to be written in the recorded session. Rewrite it yourself in-session, in at least two passes.
 - **"My entry was refused."** Read the status page: every failed check names its fix, and you can almost always fix and resubmit before the deadline.
 - **"The repository is not yours."** For GitHub bounties, the repo's owner must be the GitHub account linked to your make.fun profile — link it, or sign in with GitHub.
+- **"The badges do not count."** Guide bounties ask for make.fun's live badge images in the README, with your own owner and repository filled into the badge URLs. A static badge image, or one hidden inside an HTML comment or a code block, is not accepted — paste the badge lines as plain Markdown image links, exactly as the kit's starter carries them.
 - **"My signups are not counting."** Only verified human signups count, and each one is decided after a review hold. Drive-by, self, and bot signups are filtered by design.
 
 ## 9. About this guide
