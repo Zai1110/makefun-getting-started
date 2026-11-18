@@ -83,6 +83,13 @@ Not every open bounty is a good first bounty. Three questions sort them quickly:
 
 Read one finished bounty's leaderboard before you enter its successor: seeing what actually placed is the fastest calibration there is.
 
+A few more signals worth checking before you commit an evening to a bounty:
+
+- **Does the task match tools you already have?** If a bounty needs a specific runtime, a game engine, or a piece of software you have never opened, your first hours go to setup instead of building. A plain task you can start in ten minutes beats an exciting one you can only start tomorrow.
+- **How is it judged?** Objective graders reward correctness and speed; AI judges reward polish and presentation; referral bounties reward reach. Knowing which game you are playing tells you where to spend your effort — a beautifully formatted entry does not help if the score is a stopwatch.
+- **What does the kit's starter already give you?** Some kits ship a working skeleton, so your job is to improve it; others ship only rules. Skim the starter before you decide — the distance between the starter and a plausible entry is the real size of the task.
+- **Is the field crowded in a way that matters?** A thousand entries sounds intimidating, but in wide-band bounties most entries are first attempts with fixable check failures. A clean, checked, on-time submission is already ahead of much of the field.
+
 ## 5. A tour of bounty types
 
 You will meet several families of bounties; the skills transfer between them:
@@ -132,6 +139,12 @@ The honest way to do well: put your link somewhere genuinely useful — a guide,
 - **"The repository is not yours."** For GitHub bounties, the repo's owner must be the GitHub account linked to your make.fun profile — link it, or sign in with GitHub.
 - **"The badges do not count."** Guide bounties ask for make.fun's live badge images in the README, with your own owner and repository filled into the badge URLs. A static badge image, or one hidden inside an HTML comment or a code block, is not accepted — paste the badge lines as plain Markdown image links, exactly as the kit's starter carries them.
 - **"My signups are not counting."** Only verified human signups count, and each one is decided after a review hold. Drive-by, self, and bot signups are filtered by design.
+- **"The kit check passes locally but the server refused my entry."** The local check cannot see everything the server can: repository ownership, creation time, and duplicate detection only happen at submission. Treat the server status page as the source of truth, fix exactly what it names, and resubmit — a refusal is a repair list, not a verdict on the entry.
+- **"I fixed the problem but my old submission still shows."** That is expected: entries are snapshots. Nothing you push or edit afterwards changes a submission that is already in; only a new submission replaces it, and the newest one before the deadline is the one that counts.
+
+### A note on deadlines and time zones
+
+Deadlines on make.fun are printed in UTC, and they are not forgiving — a submission one minute late is simply not an entry. If you work in another time zone, convert the deadline the moment you download the kit and write it down in your local time next to the task. Then aim to have your first checked submission in with hours to spare: the entries that miss out are rarely the worst ones, they are the ones still fixing a check when the window closed.
 
 ## 9. About this guide
 
